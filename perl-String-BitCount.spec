@@ -3,7 +3,7 @@ Summary:	String-BitCount perl module
 Summary(pl):	Modu³ perla String-BitCount
 Name:		perl-String-BitCount
 Version:	1.11
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
