@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	String
 %define	pnam	BitCount
-Summary:	String-BitCount perl module
-Summary(pl):	Modu³ perla String-BitCount
+Summary:	String::BitCount perl module
+Summary(pl):	Modu³ perla String::BitCount
 Name:		perl-String-BitCount
 Version:	1.11
 Release:	8
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-String-BitCount - counts number of "1" bits in string.
+String::BitCount - counts number of "1" bits in string.
 
 %description -l pl
-String-BitCount - zlicza ilo¶æ bitów "1" w ³añcuchu.
+String::BitCount - zlicza ilo¶æ bitów "1" w ³añcuchu.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
