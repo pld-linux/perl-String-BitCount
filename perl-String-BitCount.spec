@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	String
-%define	pnam	BitCount
+%define		pdir	String
+%define		pnam	BitCount
 Summary:	String::BitCount - counts number of "1" bits in string
 Summary(pl):	String::BitCount - zliczanie ilo¶ci bitów "1" w ³añcuchu
 Name:		perl-String-BitCount
