@@ -30,7 +30,7 @@ String::BitCount - zlicza ilo¶æ bitów "1" w ³añcuchu.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %{!?_without_tests:%{__make} test}
