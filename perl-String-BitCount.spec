@@ -1,11 +1,15 @@
+#
+# Conditional build:
+# _without_tests - do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	String
 %define	pnam	BitCount
-Summary:	String::BitCount perl module
-Summary(pl):	Modu³ perla String::BitCount
+Summary:	String::BitCount - counts number of "1" bits in string
+Summary(pl):	String::BitCount - zliczanie ilo¶ci bitów "1" w ³añcuchu
 Name:		perl-String-BitCount
-Version:	1.11
-Release:	8
+Version:	1.13
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -26,6 +30,8 @@ String::BitCount - zlicza ilo¶æ bitów "1" w ³añcuchu.
 %build
 %{__perl} Makefile.PL
 %{__make}
+
+%{!?_without_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
