@@ -10,7 +10,8 @@ Summary(pl):	String::BitCount - zliczanie ilo¶ci bitów "1" w ³añcuchu
 Name:		perl-String-BitCount
 Version:	1.13
 Release:	2
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	f4210f07b445445119e830dcf5952af3
