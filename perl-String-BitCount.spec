@@ -6,7 +6,7 @@
 %define		pdir	String
 %define		pnam	BitCount
 Summary:	String::BitCount - counts number of "1" bits in string
-Summary(pl):	String::BitCount - zliczanie ilo¶ci bitów "1" w ³añcuchu
+Summary(pl.UTF-8):   String::BitCount - zliczanie iloÅ›ci bitÃ³w "1" w Å‚aÅ„cuchu
 Name:		perl-String-BitCount
 Version:	1.13
 Release:	2
@@ -23,8 +23,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 String::BitCount - counts number of "1" bits in string.
 
-%description -l pl
-String::BitCount - zlicza ilo¶æ bitów "1" w ³añcuchu.
+%description -l pl.UTF-8
+String::BitCount - zlicza iloÅ›Ä‡ bitÃ³w "1" w Å‚aÅ„cuchu.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
