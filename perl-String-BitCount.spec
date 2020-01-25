@@ -4,7 +4,6 @@
 
 %define		pdir	String
 %define		pnam	BitCount
-%include	/usr/lib/rpm/macros.perl
 Summary:	String::BitCount - counts number of "1" bits in string
 Summary(pl.UTF-8):	String::BitCount - zliczanie ilości bitów "1" w łańcuchu
 Name:		perl-String-BitCount
